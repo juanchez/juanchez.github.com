@@ -1,0 +1,157 @@
+body {
+  font-family: "proxima-nova", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  padding-top: 40px;
+}
+
+.header {
+  padding-bottom: 40px;
+}
+
+.header h2 {
+  font-size: 1.4em;
+  border-bottom: 1px solid #CCCCCC;
+  line-height: 1.8em;
+}
+
+.header p {
+  border-bottom: 1px solid #CCCCCC;
+  line-height: 1.8em;
+  padding-top: 1.14em;
+  font-size: 1.2em;
+}
+
+.meta .date,
+.archive-divider .date,
+.row .title p {
+  font-weight: bold;
+  color: #2BA6CB;
+}
+
+.row.post .three.columns {
+  padding-bottom: 20px;
+}
+
+.row.post .title h3,
+.archive-title h3 {
+  padding: 0 0 10px 0;
+  margin: 0;
+  font-size: 1.2em;
+  color: #000000;
+}
+
+.archive-title h3 {
+  padding: 0 0 24px 0;
+}
+
+.row.post .title h3 a,
+.archive-title h3 a {
+  color: #000000;
+}
+
+.body-post {
+  padding-bottom: 20px;
+}
+
+.body-post hr {
+  margin-bottom: 7px;
+  width: 20px;
+}
+
+.body-post p a {
+
+}
+
+.footer {
+  margin-top: 40px;
+  border-top: 2px solid #CCCCCC;
+  padding: 10px 0 40px 0;
+}
+
+/* WORK */
+
+.shot {
+  float: left;
+  padding: 0 30px 30px 0;
+}
+
+.shot img {
+  width: 200px;
+  height: 150px;
+  border: solid 1px #EEEEEE;
+}
+
+a.more {
+  clear: both;
+  display: block;
+}
+
+/* PAGINATION */
+
+.pagination {
+  
+}
+
+.pagination ul {
+  list-style: none;
+  list-style-image: none;
+}
+
+.pagination ul li {
+  float: left;
+  padding-right: 10px;
+  display: block;
+}
+
+.pagination ul li a {
+  color: #CCCCCC;
+}
+
+.pagination ul li a:hover {
+  color: #999999;
+}
+
+.pagination ul li.active a {
+  color: #2BA6CB;
+}
+
+/* LISTS */
+
+.body-post ol {
+  margin-left: 24px;
+  list-style: decimal outside;
+}
+
+.body-post ul {
+  margin-left: 28px;
+  list-style: disc outside;
+}
+
+/* RESPONSIVE */
+
+@media handheld and (max-width: 767px), screen and (max-device-width: 767px), screen and (max-width: 767px) {
+
+  .header {
+    padding-bottom: 20px;
+  }
+
+  .header h2 {
+    margin-bottom: 8px;
+  }
+
+  .header p {
+    border-bottom: none;
+    line-height: 1.2em;
+    padding-top: 0;
+    font-size: 1.2em;
+  }
+
+}
+
+@media handheld and (max-width: 320px), screen and (max-device-width: 320px), screen and (max-width: 320px) {
+
+  .shot img {
+    width: 100%;
+    height: auto;
+  }
+
+}
